@@ -1,0 +1,31 @@
+##MUhammet Bozkurt
+SSH Connection and Remote Command Execution with Python
+##Gereksinimler
+Python 3.x
+paramiko kütüphanesi
+Uzak sunuculara SSH erişim izni (kullanıcı adı, şifre veya SSH anahtarı)
+
+##kurulum
+1. Python ve paramiko Kurulumu
+Öncelikle, paramiko kütüphanesini kurmanız gerekiyor. Aşağıdaki komutlar ile Python 3 ve paramiko kütüphanesini yükleyin:
+
+sudo apt update
+sudo apt install python3 python3-pip -y
+pip3 install paramiko
+
+
+##SSHManager Sınıfı
+Sınıfın Kullanımı
+Bu sınıfın nasıl kullanılacağını öğrenmek için aşağıdaki adımları takip edin.
+
+Adım 1: SSHManager Sınıfını İçe Aktarma
+Aynı dizine bir Python dosyası (test_ssh_manager.py) oluşturun ve SSHManager sınıfını içe aktarın:
+from SSHManager import SSHManager
+
+
+##Python Kodunu Çalıştırma
+
+python3 test_ssh_manager.py
+
+
+
